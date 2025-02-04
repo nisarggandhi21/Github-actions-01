@@ -22,4 +22,4 @@ jobs:
       - name: Step one
         uses: actions/checkout@v2
       - name: Step two
-        run: Get-ChildItem -Path Env: | Sort-Object Name
+        run: "Get-ChildItem -Path Env: | Sort-Object Name"
