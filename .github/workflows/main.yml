@@ -1,10 +1,5 @@
 name : first
 
-on:
-  push:
-    branches:
-      - master
-
 jobs:
     job1:
         name:
